@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
 //EthPM Packages
-import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "../node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol";
+import "../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol";
 
 /// @title   Final Project - Online Marketplace
 /// @author  Mohammed Moishin <mmoishin@gmail.com>
@@ -91,6 +91,7 @@ contract OnlineMarketplace is Ownable {
     /// @notice Adds a new shop owner. An admin can only call this function
     /// @param _newShopOwner is the address of the shop owner to be added
     function addShopOwner(address _newShopOwner) public onlyAdmin {
+        require(Admins[_newShopOwner] == false, "Shop Owner cannot be an admin");
         ShopOwner[_newShopOwner] = true;
     }
 

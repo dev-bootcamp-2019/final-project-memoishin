@@ -364,7 +364,7 @@ class ShopOwnerHome extends Component {
                         <FormGroup
                             controlId="productPrice"
                         >
-                            <ControlLabel>Product Price</ControlLabel>
+                            <ControlLabel>Product Price (Wei)</ControlLabel>
                             <FormControl
                                 type="text"
                                 value={this.state.productPrice}

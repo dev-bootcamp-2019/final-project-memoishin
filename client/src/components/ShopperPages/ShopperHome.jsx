@@ -227,7 +227,7 @@ class ShopperHome extends Component {
                     <tr>
                       <td>Product Name</td>
                       <td>Quantity</td>
-                      <td>Price</td>
+                      <td>Price (Wei)</td>
                       <td>Buy</td>
                     </tr>
                   </thead>

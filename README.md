@@ -13,6 +13,11 @@ When a shopper visits the page, they can browse the listed stores and products. 
 
 Run `npm install` in the project directory.
 
+[Update]
+The npm install in this directory should've installed open zeppelin but I agree there is no package.json and is causing error. It should work without "npm install" in the top level directory.
+
+Can you please just get the Ownable.sol and SafeMath.sol files and include it in the contracts folder and change the import location for both in the smart contract.
+
 Change directory into *client*.
 
 Run `npm install` in this directory.

@@ -18,6 +18,10 @@ The npm install in this directory should've installed open zeppelin but I agree 
 
 Can you please just get the Ownable.sol and SafeMath.sol files and include it in the contracts folder and change the import location for both in the smart contract.
 
+Links:
+https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/ownership/Ownable.sol
+https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol
+
 Change directory into *client*.
 
 Run `npm install` in this directory.

@@ -57,6 +57,7 @@ module.exports = {
 
   contracts_build_directory: path.join(__dirname, "client/src/contracts")
 };
+
 ------------------------------------------------------------------------------
 
 Change directory into the project directory.

@@ -34,6 +34,7 @@ Start Ganache [I have used GUI version 1.2.2]
 
 Replace contents of truffle.js/ truffle-config.js with:
 
+---------------------------------------------------------------------------------
 const path = require("path");
 
 module.exports = {
@@ -56,7 +57,7 @@ module.exports = {
 
   contracts_build_directory: path.join(__dirname, "client/src/contracts")
 };
-
+------------------------------------------------------------------------------
 
 Change directory into the project directory.
 

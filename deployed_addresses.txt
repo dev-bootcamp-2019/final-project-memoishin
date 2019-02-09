@@ -1,4 +1,4 @@
 Testnet: Ropsten
 Contract Address: 0xd4632c5f78930a03620cb49ddf4ec1c8af60b896
 
-As the contract used external libraries, to verify on Etherscan, I had to include those libraies in the contract. The address on Ropsten for this version is: 0x3e1c503d442765dc78e70872d6b019263ef1855a
+As the contract used external libraries, to verify on Etherscan, I had to include those libraries in the contract. The address on Ropsten for this version is: 0x3e1c503d442765dc78e70872d6b019263ef1855a
